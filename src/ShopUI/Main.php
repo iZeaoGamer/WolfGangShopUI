@@ -2439,7 +2439,7 @@ class Main extends PluginBase implements Listener {
 									
 								case 2:
 									$this->itemName = "Zombie";
-									$this->itemId = 383;
+									$this->itemId = 52;
 									$this->itemMeta = 32;
 									$this->paymentPrice = $this->cfg->get("Zombie");
 									$this->recentShop = "spawnersForm";
@@ -2448,7 +2448,7 @@ class Main extends PluginBase implements Listener {
 									
 								case 3:
 									$this->itemName = "Chicken";
-									$this->itemId = 383;
+									$this->itemId = 52;
 									$this->itemMeta = 10;
 									$this->paymentPrice = $this->cfg->get("Chicken");
 									$this->recentShop = "spawnersForm";
@@ -2458,7 +2458,7 @@ class Main extends PluginBase implements Listener {
 									
 								case 4:
 									$this->itemName = "Cow";
-									$this->itemId = 383;
+									$this->itemId = 52;
 									$this->itemMeta = 11;
 									$this->paymentPrice = $this->cfg->get("Cow");
 									$this->recentShop = "spawnersForm";
@@ -2467,7 +2467,7 @@ class Main extends PluginBase implements Listener {
 									
 								case 5:
 									$this->itemName = "Pig";
-									$this->itemId = 383;
+									$this->itemId = 52;
 									$this->itemMeta = 12;
 									$this->paymentPrice = $this->cfg->get("Pig");
 									$this->recentShop = "spawnersForm";
@@ -2476,7 +2476,7 @@ class Main extends PluginBase implements Listener {
 									
 								case 6:
 									$this->itemName = "Sheep";
-									$this->itemId = 383;
+									$this->itemId = 52;
 									$this->itemMeta = 13;
 									$this->paymentPrice = $this->cfg->get("Sheep");
 									$this->recentShop = "spawnersForm";
@@ -2485,7 +2485,7 @@ class Main extends PluginBase implements Listener {
 									
 								case 7:
 									$this->itemName = "Wolf";
-									$this->itemId = 383;
+									$this->itemId = 52;
 									$this->itemMeta = 14;
 									$this->paymentPrice = $this->cfg->get("Wolf");
 									$this->recentShop = "spawnersForm";
@@ -2494,7 +2494,7 @@ class Main extends PluginBase implements Listener {
 									
 								case 8:
 									$this->itemName = "Iron Golem";
-									$this->itemId = 383;
+									$this->itemId = 52;
 									$this->itemMeta = 20;
 									$this->paymentPrice = $this->cfg->get("Iron_Golem");
 									$this->recentShop = "spawnersForm";
@@ -2503,7 +2503,7 @@ class Main extends PluginBase implements Listener {
 									
 								case 9:
 									$this->itemName = "Blaze";
-									$this->itemId = 383;
+									$this->itemId = 52;
 									$this->itemMeta = 43;
 									$this->paymentPrice = $this->cfg->get("Blaze");
 									$this->recentShop = "spawnersForm";
@@ -2512,7 +2512,7 @@ class Main extends PluginBase implements Listener {
 									
 								case 10:
 									$this->itemName = "Skeleton";
-									$this->itemId = 383;
+									$this->itemId = 52;
 									$this->itemMeta = 34;
 									$this->paymentPrice = $this->cfg->get("Skeleton");
 									$this->recentShop = "spawnersForm";
@@ -2521,7 +2521,7 @@ class Main extends PluginBase implements Listener {
 									
 								case 11:
 									$this->itemName = "Spider";
-									$this->itemId = 383;
+									$this->itemId = 52;
 									$this->itemMeta = 35;
 									$this->paymentPrice = $this->cfg->get("Spider");
 									$this->recentShop = "spawnersForm";
@@ -2530,7 +2530,7 @@ class Main extends PluginBase implements Listener {
 									
 								case 12:
 									$this->itemName = "Husk";
-									$this->itemId = 383;
+									$this->itemId = 52;
 									$this->itemMeta = 47;
 									$this->paymentPrice = $this->cfg->get("Husk");
 									$this->recentShop = "spawnersForm";
@@ -2539,7 +2539,7 @@ class Main extends PluginBase implements Listener {
 									
 								case 13:
 									$this->itemName = "Zombie Pigman";
-									$this->itemId = 383;
+									$this->itemId = 52;
 									$this->itemMeta = 36;
 									$this->paymentPrice = $this->cfg->get("Zombie_Pigman");
 									$this->recentShop = "spawnersForm";
@@ -2548,7 +2548,7 @@ class Main extends PluginBase implements Listener {
 									
 								case 14:
 									$this->itemName = "Slime";
-									$this->itemId = 383;
+									$this->itemId = 52;
 									$this->itemMeta = 37;
 									$this->paymentPrice = $this->cfg->get("Slime");
 									$this->recentShop = "spawnersForm";
