@@ -53,7 +53,7 @@ class Main extends PluginBase implements Listener {
    
      
      
-    public function onCommand(CommandSender $sender, Command $cmd, string $label,array $args) : bool {
+    public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool {
 		
 		switch($cmd->getName()){
 		
@@ -64,7 +64,7 @@ class Main extends PluginBase implements Listener {
 						if($api === null || $api->isDisabled()){
 						// CHECK THIS ?
 						}
-						$form = $api->createSimpleForm(function (Player $sender, array $data){
+						$form = $api->createSimpleForm(function (Player $sender, $data = null){
 
 						$result = $data[0];
 						
@@ -144,7 +144,7 @@ class Main extends PluginBase implements Listener {
 						if($api === null || $api->isDisabled()){
 						
 						}
-						$form = $api->createSimpleForm(function (Player $sender, array $data){
+						$form = $api->createSimpleForm(function (Player $sender, $data = null){
 
 						$result = $data[0];
 						if($result === null){
@@ -365,7 +365,7 @@ class Main extends PluginBase implements Listener {
 						if($api === null || $api->isDisabled()){
 						
 						}
-						$form = $api->createSimpleForm(function (Player $sender, array $data){
+						$form = $api->createSimpleForm(function (Player $sender, $data = null){
 
 						$result = $data[0];
 						if($result === null){
@@ -471,7 +471,7 @@ class Main extends PluginBase implements Listener {
 						if($api === null || $api->isDisabled()){
 						
 						}
-						$form = $api->createSimpleForm(function (Player $sender, array $data){
+						$form = $api->createSimpleForm(function (Player $sender, $data = null){
 
 						$result = $data[0];
 						if($result === null){
@@ -704,7 +704,7 @@ class Main extends PluginBase implements Listener {
 						if($api === null || $api->isDisabled()){
 						
 						}
-						$form = $api->createSimpleForm(function (Player $sender, array $data){
+						$form = $api->createSimpleForm(function (Player $sender, $data = null){
 
 						$result = $data[0];
 						if($result === null){
@@ -2327,7 +2327,7 @@ class Main extends PluginBase implements Listener {
 						if($api === null || $api->isDisabled()){
 						
 						}
-						$form = $api->createSimpleForm(function (Player $sender, array $data){
+						$form = $api->createSimpleForm(function (Player $sender, $data = null){
 
 						$result = $data[0];
 						if($result === null){
@@ -2416,7 +2416,7 @@ class Main extends PluginBase implements Listener {
 						if($api === null || $api->isDisabled()){
 						
 						}
-						$form = $api->createSimpleForm(function (Player $sender, array $data){
+						$form = $api->createSimpleForm(function (Player $sender, $data = null){
 
 						$result = $data[0];
 						if($result === null){
@@ -2595,7 +2595,7 @@ class Main extends PluginBase implements Listener {
 						if($api === null || $api->isDisabled()){
 						
 						}
-						$form = $api->createSimpleForm(function (Player $sender, array $data){
+						$form = $api->createSimpleForm(function (Player $sender, $data = null){
 
 						$result = $data[0];
 						if($result === null){
@@ -2674,7 +2674,7 @@ class Main extends PluginBase implements Listener {
 					if($api === null || $api->isDisabled()){
 						
 					}
-					$form = $api->createCustomForm(function (Player $sender, array $data){
+					$form = $api->createCustomForm(function (Player $sender, $data = null){
 
 						$result = $data[0];
 						if($result != null){
